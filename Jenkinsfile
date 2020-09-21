@@ -5,7 +5,7 @@ pipeline {
     stages {
         stage('Testing') {
             steps {
-                echo 'Testing Starts'
+                echo 'Testing Starts in Dev'
                 sh 'mvn test'
                 echo 'Testing Ends'
             }
